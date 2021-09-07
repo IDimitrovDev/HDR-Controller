@@ -1,19 +1,41 @@
-<p><strong>Privacy Policy</strong></p>
-<p>DimitrovDev built the HDR Controller app as a free app. This SERVICE is provided by DimitrovDev and is intended for use as is.</p>
-<p>This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.</p>
-<p>If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.</p>
-<p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at HDR Controller unless otherwise defined in this Privacy Policy.</p>
-<p><strong>Information Collection and Use</strong></p>
-<p>The app does not use or collect information used to identify you.</p>
-<p>The app does not use third party services that may collect information used to identify you.</p>
-<p><strong>Security</strong></p>
-<p>I value your trust in providing us your Personal Information, thus I are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.</p>
-<p><strong>Links to Other Sites</strong></p>
-<p>This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>
-<p><strong>Children&rsquo;s Privacy</strong></p>
-<p>I do not knowingly collect data from or market to children under 18 years of age.</p>
-<p><strong>Changes to This Privacy Policy</strong></p>
-<p>I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.</p>
-<p>This policy is effective as of 2021-03-01</p>
-<p><strong>Contact Us</strong></p>
-<p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at idimitrov.dev@gmail.com.</p>
+### What is HDR controller?
+
+![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/hdrcontroller.png)
+HDR Controller is tool for managing apps that can activate windows HDR automatically, when get run. It automates the tedious task of switching between using HDR and not using HDR on Windows, for example when playing some HDR media, or game that doesn't automatically trigger it. With HDR controller one can select per monitor which app to activated automatically HDR when it gets started and keep HDR activated while it is running. 
+A requirement to use the app is a HDR capable monitor, as such needs to be detected and shown in the app's monitor settings. There two ways of apps that can be added.
+
+ **Microsoft store apps** - selected from the combo with all installed apps from the Microsoft store.
+
+ **Desktop apps** - selected with the browse button by selecting the wanted app's .exe file.
+
+Available configurable settings in the app are:
+![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/settings.png)
+**HDR Control** - when enabled HDR gets controlled automatically from the app
+
+**Auto-start on Windows login** - when enabled - the app will start automatically when the user logins in Windows.
+
+**Show running HDR preferences apps first** - in monitors settings the app will be sorted by their running status instead of order of add.
+
+**External apps can use HDR controller to enable/disable HDR** - when enabled the app exposes app service functionality that enables external apps to activate or deactivate HDR. For example in [Energy Media Player](https://www.microsoft.com/store/apps/9P9ZH5FL1BFK) HDR Controller integration can be enabled so when HDR media is played on HDR capable monitor, the media player automatically enables HDR(by adding itself into HDR controllers apps requesting HDR) and when the HDR media stops playing it automatically remove itself from HDR Controller and in turn stops Windows HDR. 
+ 
+### Installation
+
+ By downloading the [latest release](https://github.com/IDimitrovDev/HDR-Controller/releases/) and extracting the files from the zip archive.
+ Then double click on the certificate HDRControllerPackage_1.0.1.0_x64.cer which will bring a window with information about the certificate. 
+
+![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/certificate_install.png)
+
+Choosing <Install certificate> button, which will start the certificate installation process. 
+
+![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/certificate_import_wizard.png)
+
+Then <Browse> and in the chooser "Trusted Root certification Authorities"
+
+![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/certificate_store.png)
+
+After the certificate is installed, double click HDRControllerPackage_1.0.1.0_x64.msix(if requires a "Open with" app - "App Installer" has to be selected 
+
+![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/msix_app_chooser.png)
+
+Select Install.
+![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/installer.png)
