@@ -38,4 +38,5 @@ After the certificate is installed, double click HDRControllerPackage_1.0.1.0_x6
 ![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/msix_app_chooser.png)
 
 Select Install.
+ 
 ![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/installer.png)
