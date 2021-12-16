@@ -39,4 +39,6 @@ After the certificate is installed, double click HDRControllerPackage_1.0.1.0_x6
 
 Select Install.
  
-![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/installer.png)
+![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/installer.png) 
+ 
+ [Download now](https://github.com/IDimitrovDev/HDR-Controller/releases/download/v1.0.1.0/HDRControllerPackage_1.0.1.0_x64.zip)
