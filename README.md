@@ -25,7 +25,7 @@ Available configurable settings in the app are:
 
 ![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/certificate_install.png)
 
-Choosing <Install certificate> button, which will start the certificate installation process. 
+Choosing `Install certificate` button, which will start the certificate installation process. 
 
 ![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/certificate_import_wizard.png)
 
