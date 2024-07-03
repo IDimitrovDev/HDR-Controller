@@ -41,4 +41,4 @@ Select Install.
  
 ![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/installer.png) 
  
- [Download now](https://github.com/IDimitrovDev/HDR-Controller/releases/download/v1.0.1.0/HDRControllerPackage_1.0.1.0_x64.zip)
+ [Download now](https://github.com/IDimitrovDev/HDR-Controller/releases/download/v1.0.3.0/HdrControllerPackage_1.0.3.0_x64.zip)
