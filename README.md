@@ -20,8 +20,14 @@ Available configurable settings in the app are:
  
 ### Installation
 
- By downloading the [latest release](https://github.com/IDimitrovDev/HDR-Controller/releases/) and extracting the files from the zip archive.
- Then double click on the certificate HDRControllerPackage_1.0.1.0_x64.cer which will bring a window with information about the certificate. 
+ HDR Controller has 2 versions
+ - HDR Controller X published in MS Store: https://apps.microsoft.com/detail/9NZD37HXD6BT
+![](https://raw.githubusercontent.com/IDimitrovDev/HDR-Controller/refs/heads/main/screens/hdr-controller-x.png)
+ 
+ - HDR Controller for sideloading with self-signed certificate. 
+
+To install the sideloaded version download the [latest release](https://github.com/IDimitrovDev/HDR-Controller/releases/) and extracting the files from the zip archive.
+ Then double click on the certificate HDRControllerPackage_1.0.10.0_x64.cer which will bring a window with information about the certificate. 
 
 ![](https://github.com/IDimitrovDev/HDR-Controller/blob/main/screens/certificate_install.png)
 
